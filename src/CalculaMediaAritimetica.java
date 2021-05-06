@@ -21,7 +21,10 @@ public class CalculaMediaAritimetica {
     public static void main(String[] args){
 
         // *** ENTRADA DE DADOS ***
+        System.out.println("digite o primeiro valor");
         double primeiroNumero = 3;
+
+        System.out.println("digite o segundo valor");
         double segundoNumero = 6;
 
         // *** PROCESSAMENTO ***
