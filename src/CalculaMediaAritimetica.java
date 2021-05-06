@@ -16,13 +16,17 @@ mostra a media aritimetica deles:
  */
 
 
+import java.util.Scanner;
+
 public class CalculaMediaAritimetica {
 
     public static void main(String[] args){
 
+        Scanner scanner = new Scanner(System.in);
+
         // *** ENTRADA DE DADOS ***
         System.out.println("digite o primeiro valor");
-        double primeiroNumero = 3;
+        double primeiroNumero = scanner.nextDouble();
 
         System.out.println("digite o segundo valor");
         double segundoNumero = 6;
