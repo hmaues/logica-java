@@ -29,7 +29,7 @@ public class CalculaMediaAritimetica {
         double primeiroNumero = scanner.nextDouble();
 
         System.out.println("digite o segundo valor");
-        double segundoNumero = 6;
+        double segundoNumero = scanner.nextByte();
 
         // *** PROCESSAMENTO ***
         double resultado = (primeiroNumero + segundoNumero) / 2;
